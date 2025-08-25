@@ -123,7 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:layout_marginBottom="24dp"
-            android:backgroundTint="@color/launch_gradient_start"
+            android:backgroundTint="@color/colorPrimary"
             android:text="Select Pet Image"
             android:textColor="@color/white" />
 
@@ -132,7 +132,7 @@
             android:id="@+id/savePetButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/primary_orange"
+            android:backgroundTint="@color/colorPrimary"
             android:padding="12dp"
             android:text="Add Pet"
             android:textColor="@color/white"

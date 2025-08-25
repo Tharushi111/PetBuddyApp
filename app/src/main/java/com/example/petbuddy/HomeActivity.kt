@@ -23,10 +23,10 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
 
-        // ===== STATUS BAR SETUP =====
+        //  STATUS BAR SETUP
         window.statusBarColor = Color.WHITE
         window.decorView.systemUiVisibility = android.view.View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-        // ============================
+        //
 
         initializeViews()
         setupGreeting()

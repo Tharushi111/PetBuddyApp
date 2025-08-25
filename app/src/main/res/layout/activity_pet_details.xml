@@ -505,7 +505,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:layout_weight="1"
-            android:background="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
             android:padding="16dp"
             android:text="Save Changes"
             android:textColor="#FFFFFF"
