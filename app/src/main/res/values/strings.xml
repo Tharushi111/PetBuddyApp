@@ -14,10 +14,97 @@
     <string name="onboarding_image_1_desc">Image of a pet receiving healthy food and proper nutrition</string>
     <string name="onboarding_image_2_desc">Visual of a pet being checked by a veterinarian for health care</string>
 
+    <!-- Login screen -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">Login</string>
+
+    <!-- Sign Up screen -->
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_emails">Email</string>
+    <string name="hint_passwords">Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="login_prompt">Already have an account?</string>
+
+    <!--Home Screen Texts -->
+    <string name="greeting_text">Good Morning!</string>
+    <string name="my_pets">My Pets</string>
+    <string name="view_all">View All</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="feed">Feed</string>
+    <string name="walk">Walk</string>
+    <string name="medicine">Medicine</string>
+    <string name="vet_care">Vet Care</string>
+    <string name="tasks_today">Tasks Today</string>
+
+    <!-- Feeding Screen Strings -->
+    <!-- Screen Titles -->
+    <string name="feeding_time_title">Feeding Time</string>
+    <string name="meal_type">Meal Type</string>
+
+    <!-- Pets -->
+    <string name="pet_buddy">Buddy</string>
+    <string name="pet_kitty">Kitty</string>
+    <string name="pet_charlie">Charlie</string>
+
+    <!-- Meals -->
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="meal_treat">Treat</string>
+
+    <!-- Meal Times -->
+    <string name="time_breakfast">7:00 AM</string>
+    <string name="time_lunch">12:00 PM</string>
+    <string name="time_dinner">6:00 PM</string>
+    <string name="time_treat">Anytime</string>
+
+    <!-- Feeding Status -->
+    <string name="status_breakfast_completed">Completed at 7:15 AM</string>
+    <string name="status_lunch_due">Due at 12:00 PM</string>
+    <string name="status_dinner_due">Due at 6:00 PM</string>
+    <string name="status_treat_anytime">Anytime</string>
+
+    <!-- Buttons -->
+    <string name="mark_as_feed_button">Mark as Feed</string>
+
+    <!-- Walking Screen Strings -->
+    <!-- Headers -->
+    <string name="walking_time">Walking Time</string>
+    <string name="select_pet">Select Pet</string>
+    <string name="walk_type">Walk Type</string>
+    <string name="start_walk">Start Walk</string>
+
+    <!-- Walk Types -->
+    <string name="morning_walk">Morning Walk</string>
+    <string name="afternoon_walk">Afternoon Walk</string>
+    <string name="evening_walk">Evening Walk</string>
+    <string name="quick_potty">Quick Potty</string>
+
+    <!-- Walk Times -->
+    <string name="morning_time">8:00 AM</string>
+    <string name="afternoon_time">3:00 PM</string>
+    <string name="evening_time">7:00 PM</string>
+    <string name="potty_time">Anytime</string>
+
+    <!-- Status Times -->
+    <string name="status_morning_time">Completed at 8:30 AM • 25 min</string>
+    <string name="status_afternoon_time">Due at 3:00 PM</string>
+    <string name="status_evening_time">Due at 7:00 PM</string>
+
+    <!-- Stats Labels -->
+    <string name="distance">Distance</string>
+    <string name="durations">Duration</string>
+    <string name="steps">Steps</string>
+
+    <!-- Stats Values -->
+    <string name="distance_value">2.1 km</string>
+    <string name="duration_value">25 min</string>
+    <string name="steps_value">2,847</string>
 
     <!-- Medicine Screen Strings -->
     <string name="medicine_time">Medicine Time</string>
-    <string name="select_pet">Select Pet</string>
     <string name="medicine_type">Medicine Type</string>
     <string name="tablets">Tablets</string>
     <string name="liquid">Liquid</string>
@@ -87,5 +174,46 @@
     <string name="anytime">Anytime</string>
     <string name="completed">Completed</string>
     <string name="pending">Pending</string>
+
+    <!-- Vet Care Screen -->
+    <!-- Screen Title -->
+    <string name="vet_care_title">Vet Care</string>
+
+    <!-- Header Buttons -->
+    <string name="back_button_desc">Back</string>
+    <string name="emergency_button_desc">Emergency</string>
+
+    <!-- Pet Selection Card -->
+    <string name="choose_pet_hint">Choose which pet needs care</string>
+
+    <!-- Quick Actions -->
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="find_vet_title">Find Vet</string>
+    <string name="find_vet_subtitle">Nearby clinics</string>
+    <string name="book_visit_title">Book Visit</string>
+    <string name="book_visit_subtitle">Schedule now</string>
+
+    <!-- Upcoming Appointments -->
+    <string name="upcoming_appointments_title">Upcoming Appointments</string>
+    <string name="appointment_routine_checkup">Routine Checkup</string>
+    <string name="appointment_vet_name">Dr. Sarah Johnson</string>
+    <string name="appointment_time">2:30 PM - 3:00 PM</string>
+
+    <!-- Health Records -->
+    <string name="health_records_title">Health Records</string>
+    <string name="vaccines_title">Vaccines</string>
+    <string name="medical_history_title">History</string>
+    <string name="medications_title">Meds</string>
+
+    <!-- Emergency Contacts -->
+    <string name="emergency_contacts_title">Emergency Contacts</string>
+    <string name="emergency_vet_title">24/7 Emergency Vet</string>
+    <string name="emergency_vet_name">City Animal Hospital</string>
+    <string name="regular_vet_title">Your Regular Vet</string>
+    <string name="regular_vet_name">Dr. Dinusha Rajapaksha</string>
+
+    <!-- Appointment Date -->
+    <string name="appointment_day">24</string>
+    <string name="appointment_month">AUG</string>
 
 </resources>

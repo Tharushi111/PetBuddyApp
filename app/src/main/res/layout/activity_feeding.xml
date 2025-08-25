@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
-                android:text="Feeding Time"
+                android:text="@string/feeding_time_title"
                 android:textColor="@color/text_dark"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -54,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="Select Pet"
+                android:text="@string/select_pet"
                 android:textColor="@color/text_dark"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -121,7 +121,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Buddy"
+                                android:text="@string/buddy"
                                 android:textColor="@color/text_dark"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -148,7 +148,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Kitty"
+                                android:text="@string/kitty"
                                 android:textColor="@color/text_dark"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -175,7 +175,7 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Charlie"
+                                android:text="@string/charlie"
                                 android:textColor="@color/text_dark"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
@@ -213,7 +213,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
                 android:layout_marginBottom="16dp"
-                android:text="Meal Type"
+                android:text="@string/meal_type"
                 android:textColor="@color/text_dark"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -254,7 +254,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
-                            android:text="Breakfast"
+                            android:text="@string/meal_breakfast"
                             android:textColor="@color/text_dark"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -262,7 +262,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="7:00 AM"
+                            android:text="@string/time_breakfast"
                             android:textColor="@color/text_gray"
                             android:textSize="12sp" />
                     </LinearLayout>
