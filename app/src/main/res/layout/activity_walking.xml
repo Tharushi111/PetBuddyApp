@@ -669,10 +669,11 @@
                 android:id="@+id/buttonStartWalk"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:background="@drawable/button_green_gradient"
+                android:backgroundTint="@color/colorPrimary"
                 android:elevation="8dp"
                 android:text="Start Walk"
                 android:textColor="@android:color/white"
+                app:cornerRadius="24dp"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 

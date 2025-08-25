@@ -55,6 +55,8 @@
     <!-- Blue Colors -->
     <color name="blue_primary">#3B82F6</color>
     <color name="blue_light">#DBEAFE</color>
+    <color name="blue_primary1">#2196F3</color>
+    <color name="blue_light2">#E3F2FD</color>
 
     <!-- Yellow Colors -->
     <color name="yellow_primary">#EAB308</color>
@@ -73,10 +75,15 @@
     <color name="gray_primary">#6B7280</color>
     <color name="gray_light">#E5E7EB</color>
     <color name="gray_ultra_light">#F9FAFB</color>
+    <color name="gray_light1">#F3F4F6</color>
+    <color name="gray_border">#E5E7EB</color>
+
 
     <!-- Text Colors -->
     <color name="text_dark">#1F2937</color>
     <color name="text_gray">#6B7280</color>
+    <color name="text_dark1">#2E2E2E</color>
+    <color name="text_gray1">#8E8E93</color>
 
     <!-- Primary Colors -->
     <color name="blue">#3B82F6</color>
@@ -90,14 +97,6 @@
     <color name="green">#10B981</color>
     <color name="green_light1">#D1FAE5</color>
 
-    <!-- Gray Colors -->
-    <color name="gray_light1">#F3F4F6</color>
-    <color name="gray_border">#E5E7EB</color>
-
-    <!-- Text Colors -->
-    <color name="text_dark1">#2E2E2E</color>
-    <color name="text_gray1">#8E8E93</color>
-
     <!-- Primary Colors -->
     <color name="green_primary1">#4CAF50</color>
     <color name="green_light2">#E8F5E8</color>
@@ -106,10 +105,6 @@
     <!-- Orange Colors (for feeding screen) -->
     <color name="orange_primary1">#FF9500</color>
     <color name="orange_light2">#FFF3E0</color>
-
-    <!-- Blue Colors -->
-    <color name="blue_primary1">#2196F3</color>
-    <color name="blue_light2">#E3F2FD</color>
 
     <!-- Background Colors -->
     <color name="background_light1">#F8F9FA</color>
