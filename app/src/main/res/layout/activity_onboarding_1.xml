@@ -157,31 +157,5 @@
         android:layout_marginTop="20dp" />
 
     <!-- Page Indicators -->
-    <LinearLayout
-        android:id="@+id/pageIndicators"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="40dp">
-
-        <View
-            android:id="@+id/indicator1"
-            android:layout_width="30dp"
-            android:layout_height="8dp"
-            android:background="@drawable/indicator_active"
-            android:layout_marginEnd="8dp" />
-
-        <View
-            android:id="@+id/indicator2"
-            android:layout_width="8dp"
-            android:layout_height="8dp"
-            android:background="@drawable/indicator_inactive"
-            android:layout_marginStart="8dp" />
-
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
