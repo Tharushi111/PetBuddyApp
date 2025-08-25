@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch screen dimensions -->
+    <dimen name="logo_container_size">180dp</dimen>
+    <dimen name="logo_size">140dp</dimen>
+    <dimen name="logo_elevation">20dp</dimen>
+    <dimen name="logo_corner_radius">90dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_medium">24dp</dimen>
+    <dimen name="spacing_small">16dp</dimen>
+    <dimen name="spacing_tiny">8dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_app_name">42sp</dimen>
+    <dimen name="text_size_tagline">16sp</dimen>
+    <dimen name="text_size_version">12sp</dimen>
+
+    <!-- Loading dots -->
+    <dimen name="loading_dot_size">12dp</dimen>
+    <dimen name="loading_dot_spacing">8dp</dimen>
+
+    <!-- Paw prints -->
+    <dimen name="paw_size_large">32dp</dimen>
+    <dimen name="paw_size_medium">28dp</dimen>
+    <dimen name="paw_size_small">26dp</dimen>
+</resources>

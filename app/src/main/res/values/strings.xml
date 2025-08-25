@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetBuddy</string>
+    <string name="app_tagline">Love • Care • Track</string>
+    <string name="petbuddy_logo">PetBuddy Logo</string>
+    <string name="version_text">Version 1.0.0</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="logo_description">PetBuddy application logo showing a dog and cat together</string>
+    <string name="loading_description">Loading application</string>
+
+
+    <!-- Onboarding image descriptions -->
+    <string name="onboarding_image_1_desc">Image of a pet receiving healthy food and proper nutrition</string>
+    <string name="onboarding_image_2_desc">Visual of a pet being checked by a veterinarian for health care</string>
+
+
+    <!-- Medicine Screen Strings -->
+    <string name="medicine_time">Medicine Time</string>
+    <string name="select_pet">Select Pet</string>
+    <string name="medicine_type">Medicine Type</string>
+    <string name="tablets">Tablets</string>
+    <string name="liquid">Liquid</string>
+    <string name="injection">Injection</string>
+    <string name="supplements">Supplements</string>
+    <string name="oral_medicine">Oral Medicine</string>
+    <string name="syrup_drops">Syrup/Drops</string>
+    <string name="vaccination">Vaccination</string>
+    <string name="vitamins">Vitamins</string>
+
+    <!-- Medicine Schedule -->
+    <string name="todays_medicine_schedule">Today\'s Medicine Schedule</string>
+    <string name="antibiotic_tablet">Antibiotic Tablet</string>
+    <string name="pain_relief_syrup">Pain Relief Syrup</string>
+    <string name="vitamin_supplement">Vitamin Supplement</string>
+
+    <!-- Medicine Information -->
+    <string name="medicine_information">Medicine Information</string>
+    <string name="dosage">Dosage</string>
+    <string name="frequency">Frequency</string>
+    <string name="duration">Duration</string>
+
+    <!-- Button Text -->
+    <string name="give_medicine">Give Medicine</string>
+    <string name="give_tablet">Give Tablet</string>
+    <string name="give_liquid_medicine">Give Liquid Medicine</string>
+    <string name="give_injection">Give Injection</string>
+    <string name="give_supplement">Give Supplement</string>
+
+    <!-- Status Messages -->
+    <string name="medicine_given_successfully">Medicine administered successfully!</string>
+    <string name="tablet_given_successfully">✓ Tablet administered successfully!</string>
+    <string name="liquid_given_successfully">✓ Liquid medicine administered successfully!</string>
+    <string name="injection_given_successfully">✓ Injection administered successfully!</string>
+    <string name="supplement_given_successfully">✓ Supplement administered successfully!</string>
+
+    <!-- Pet Names -->
+    <string name="buddy">Buddy</string>
+    <string name="kitty">Kitty</string>
+    <string name="charlie">Charlie</string>
+
+    <!-- Time Formats -->
+    <string name="given_at_time">Given at %1$s • %2$s</string>
+    <string name="due_at_time">Due at %1$s • %2$s</string>
+
+    <!-- Medicine Dosages -->
+    <string name="dosage_250mg">250mg</string>
+    <string name="dosage_5ml">5ml</string>
+    <string name="dosage_1_dose">1 dose</string>
+    <string name="dosage_1_capsule">1 capsule</string>
+    <string name="dosage_1_tablet">1 tablet</string>
+
+    <!-- Frequencies -->
+    <string name="frequency_3x_daily">3x Daily</string>
+    <string name="frequency_2x_daily">2x Daily</string>
+    <string name="frequency_1x_weekly">1x Weekly</string>
+    <string name="frequency_1x_daily">1x Daily</string>
+
+    <!-- Durations -->
+    <string name="duration_7_days">7 Days</string>
+    <string name="duration_5_days">5 Days</string>
+    <string name="duration_4_weeks">4 Weeks</string>
+    <string name="duration_30_days">30 Days</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="anytime">Anytime</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+
+</resources>
