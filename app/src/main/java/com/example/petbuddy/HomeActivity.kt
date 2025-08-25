@@ -89,7 +89,7 @@ class HomeActivity : AppCompatActivity() {
 
             // --- EDIT BUTTON LISTENER ---
             card.findViewById<ImageButton>(R.id.btnEditPet)?.setOnClickListener {
-                val intent = Intent(this, EditPetActivity::class.java)
+                val intent = Intent(this, PetDetailsActivity::class.java)
                 intent.putExtra("petName", pet.name)
                 intent.putExtra("petImage", pet.imageRes)
                 intent.putExtra("petStatus", pet.status)
