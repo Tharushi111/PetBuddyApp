@@ -70,7 +70,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/pet_dog" />
 
-            <!-- ✅ Change Photo Button Overlay -->
+            <!-- Photo Button -->
             <ImageButton
                 android:id="@+id/btn_change_photo"
                 android:layout_width="40dp"
