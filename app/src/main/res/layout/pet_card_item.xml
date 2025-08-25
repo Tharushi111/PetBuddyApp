@@ -13,56 +13,78 @@
     android:focusable="true"
     android:foreground="?android:attr/selectableItemBackground">
 
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center_horizontal"
         android:padding="16dp">
 
-        <!-- Pet Image inside round card -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            app:cardCornerRadius="30dp"
-            app:cardElevation="2dp"
-            android:backgroundTint="#F8F9FF"
-            android:layout_marginBottom="12dp">
+        <ImageButton
+            android:id="@+id/btnEditPet"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_circle_orange_light"
+            android:padding="6dp"
+            android:src="@drawable/ic_edit"
+            android:contentDescription="Edit Pet"
+            android:elevation="4dp"/>
 
-            <ImageView
-                android:id="@+id/petImages"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center"
-                android:src="@drawable/pet_dog"
-                android:scaleType="centerCrop" />
 
-        </com.google.android.material.card.MaterialCardView>
-
-        <!-- Pet Name -->
-        <TextView
-            android:id="@+id/petNames"
-            android:layout_width="wrap_content"
+        <!-- Main Pet Content -->
+        <LinearLayout
+            android:id="@+id/petContent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Pet Name"
-            android:textColor="#333333"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:maxLines="1"
-            android:ellipsize="end" />
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingTop="16dp"
+            android:layout_below="@id/btnEditPet">
 
-        <!-- Pet Status -->
-        <TextView
-            android:id="@+id/petStatus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Healthy"
-            android:textColor="@color/green_primary"
-            android:textSize="15sp"
-            android:textStyle="bold"
-            android:layout_marginTop="4dp" />
+            <!-- Pet Image inside round card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="2dp"
+                android:backgroundTint="#F8F9FF"
+                android:layout_marginBottom="12dp">
 
-    </LinearLayout>
+                <ImageView
+                    android:id="@+id/petImages"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pet_dog"
+                    android:scaleType="centerCrop" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Pet Name -->
+            <TextView
+                android:id="@+id/petNames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pet Name"
+                android:textColor="#333333"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end" />
+
+            <!-- Pet Status -->
+            <TextView
+                android:id="@+id/petStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Healthy"
+                android:textColor="@color/green_primary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_marginTop="4dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 </com.google.android.material.card.MaterialCardView>

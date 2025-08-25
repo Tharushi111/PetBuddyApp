@@ -9,6 +9,7 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.card.MaterialCardView
+import android.widget.ImageButton
 import java.util.*
 
 data class Pet(val name: String, val imageRes: Int, val status: String = "Healthy")
@@ -69,9 +70,7 @@ class HomeActivity : AppCompatActivity() {
                     layoutParams = LinearLayout.LayoutParams(
                         LinearLayout.LayoutParams.MATCH_PARENT,
                         LinearLayout.LayoutParams.WRAP_CONTENT
-                    ).apply {
-                        bottomMargin = dpToPx(8)
-                    }
+                    ).apply { bottomMargin = dpToPx(8) }
                     orientation = LinearLayout.HORIZONTAL
                 }
                 petsContainer.addView(row)
@@ -84,14 +83,17 @@ class HomeActivity : AppCompatActivity() {
             val statusText = card.findViewById<TextView>(R.id.petStatus)
             statusText?.text = pet.status
             statusText?.setTextColor(
-                if (pet.status == "Healthy")
-                    getColor(R.color.green_primary)
-                else
-                    getColor(R.color.orange_primary)
+                if (pet.status == "Healthy") getColor(R.color.green_primary)
+                else getColor(R.color.orange_primary)
             )
 
-            // Click listener for pet card (still optional)
-            card.setOnClickListener {
+            // --- EDIT BUTTON LISTENER ---
+            card.findViewById<ImageButton>(R.id.btnEditPet)?.setOnClickListener {
+                val intent = Intent(this, EditPetActivity::class.java)
+                intent.putExtra("petName", pet.name)
+                intent.putExtra("petImage", pet.imageRes)
+                intent.putExtra("petStatus", pet.status)
+                startActivity(intent)
             }
 
             val layoutParams = card.layoutParams as LinearLayout.LayoutParams
@@ -124,6 +126,7 @@ class HomeActivity : AppCompatActivity() {
             }
         }
     }
+
 
     private fun addPetCardToRow(row: LinearLayout, inflater: LayoutInflater, isSecondCard: Boolean) {
         val addPetCard = inflater.inflate(R.layout.pet_card_add, row, false) as MaterialCardView
