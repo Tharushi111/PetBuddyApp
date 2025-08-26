@@ -4,7 +4,7 @@ PetBuddy is a mobile application designed to help pet owners **love, care, and t
 The app provides an easy way to manage pet health, feeding schedules, walking routines, medicines, and vet appointments – all in one place.  
 
 <p align="center">
-  <img src="./screenshots/launch.png" alt="Launch" width="200"/>
+  <img src="./screenshots/launch_screen.png" alt="Launch" width="200"/>
   <img src="./screenshots/onboarding1.png" alt="Onboarding 1" width="200"/>
   <img src="./screenshots/onboarding2.png" alt="Onboarding 2" width="200"/>
 </p>
