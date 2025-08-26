@@ -9,6 +9,11 @@ The app provides an easy way to manage pet health, feeding schedules, walking ro
   <img src="./screenshots/onboarding2.png" alt="Onboarding 2" width="200"/>
 </p>
 
+<p align="center">
+  <img src="./screenshots/login_screen.png" alt="Login" width="200"/>
+  <img src="./screenshots/signup_screen.png" alt="Signup" width="200"/>
+</p>
+
 ---
 
 ## 🚀 Core Features
