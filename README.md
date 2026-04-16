@@ -1,4 +1,4 @@
-# 🐾 PetBuddy – Pet Care App
+#  PetBuddy – Pet Care App
 
 PetBuddy is a mobile application designed to help pet owners **love, care, and track** their pets’ daily needs.  
 The app provides an easy way to manage pet health, feeding schedules, walking routines, medicines, and vet appointments – all in one place.  
@@ -16,7 +16,7 @@ The app provides an easy way to manage pet health, feeding schedules, walking ro
 
 ---
 
-## 🚀 Core Features
+##  Core Features
 
 ### 1. **Launch Screen**
 - Displays app logo and tagline: *Love • Care • Track*.  
@@ -40,21 +40,21 @@ The app provides an easy way to manage pet health, feeding schedules, walking ro
 
 ---
 
-## 📱 Other Functional Screens (Purpose)
+##  Other Functional Screens (Purpose)
 
-### 🥣 Feeding Screen
+###  Feeding Screen
 - Set **feeding schedules** based on each pet.  
 - Notifications/reminders for feeding times.  
 
-### 🚶 Walking Screen
+###  Walking Screen
 - Schedule **walking activities** for each pet.  
 - Track walking frequency and duration.  
 
-### 💊 Medicine Screen
+###  Medicine Screen
 - Schedule **medicine reminders**.  
 - Ensure pets take medicines on time.  
 
-### 🏥 Vet Care Screen
+###  Vet Care Screen
 - Find **nearby veterinary clinics**.  
 - **Book appointments** directly.  
 - View and manage **upcoming appointments**.  
@@ -63,7 +63,7 @@ The app provides an easy way to manage pet health, feeding schedules, walking ro
 
 ---
 
-## 🎨 UI/UX Design
+##  UI/UX Design
 
 I designed the **PetBuddy UI** with a clean, friendly, and modern layout:  
 - **Splash/Onboarding** with playful pet illustration to connect emotionally with users.  
@@ -73,7 +73,7 @@ I designed the **PetBuddy UI** with a clean, friendly, and modern layout:
 
 ---
 
-## 🎯 Target Audience
+##  Target Audience
 
 - **Pet owners** (cats, dogs, rabbits, etc.) who want to keep track of their pets.  
 - Busy individuals who need **reminders** for feeding, walking, or medicine.  
@@ -82,7 +82,7 @@ I designed the **PetBuddy UI** with a clean, friendly, and modern layout:
 
 ---
 
-## 🎨 Color Palette
+##  Color Palette
 
 - **Primary:** Gradient Orange (#FF9800 → #FF5722) – warmth, energy, friendliness.  
 - **Secondary:** Green (#4CAF50) – used for healthy status.  
@@ -96,7 +96,7 @@ This **60-30-10 color principle** was followed:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 PetBuddy helps pet owners manage their pets with **love, care, and efficiency**.  
 By combining **clean UI design, scheduling features, and vet connectivity**, it makes pet parenting easier and stress-free.  
